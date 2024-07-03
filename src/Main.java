@@ -8,16 +8,17 @@ import java.util.Scanner;
             Convert coin = new Convert("",0,"","");
             boolean menuSelection = true;
             String menuText =
-                    "|****************************************| \n" +
-                    "Sea bienvenido/a al Conversor de Monedas \n" +
-                    "Ahora indique cual conversión desea realizar \n" +
-                    "1) Peso argentino =>> Bolivar boliviano \n" +
-                    "2) Bolivar boliviano =>> Real brasileño \n" +
-                    "3) Real brasileño =>> Peso chileno \n" +
-                    "4) Peso chileno =>> Peso colombiano \n" +
-                    "5) Peso colombiano =>> Dolar estadounidense \n" +
-                    "6) Salir \n" +
-                    "Elija una opción válida:";
+                    """
+                            |****************************************|\s
+                            Sea bienvenido/a al Conversor de Monedas\s
+                            Ahora indique cual conversión desea realizar\s
+                            1) Peso argentino =>> Bolivar boliviano\s
+                            2) Bolivar boliviano =>> Real brasileño\s
+                            3) Real brasileño =>> Peso chileno\s
+                            4) Peso chileno =>> Peso colombiano\s
+                            5) Peso colombiano =>> Dolar estadounidense\s
+                            6) Salir\s
+                            Elija una opción válida:""";
             String menuConverted =
                     "|***************************************| \n" +
                     "Elige la cantidad que deseas convertir:  ";

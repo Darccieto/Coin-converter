@@ -24,7 +24,7 @@ public class Convert {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(getUrl_api() + getCountry1() +
-                        "/"+ getCountry2() + "/" + String.valueOf(getCoin())))
+                        "/"+ getCountry2() + "/" + getCoin()))
                 .build();
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
